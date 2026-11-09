@@ -33,24 +33,29 @@ body {
         background-position: 300%;
     }
 }
-.contrast {
-    display: inline;
-    color:#444 ;
-}
+
 
 .section {
     display: flex;
     align-items: flex-start;
     
 }
+
+    .figure {
+        width: 40px;
+        margin: 0;
+
+
+    }
     .section img {
-        width: 20em;
+        width: 19em;
         height: auto;
         display: block;
     
     }
-    .section span {
-        margin-top: 8px;
-
+    .text {
+        margin-top: 0;
+        margin-bottom: 20px;
     }
+
 
