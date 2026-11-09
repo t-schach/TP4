@@ -10,9 +10,27 @@ body {
     line-height: 1.5em;
     font-family: Arial, Helvetica, sans-serif;
     font-size: normal
+    
 }
 .wrong {
     color: blueviolet;
     text-decoration: underline;
 
+}
+.small{
+    font-size: xx-small;
+    display: inline;
+}
+
+#rainbow {
+    display: inline;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+    animation: couleur 0.3s infinite linear;
+}
+@keyframes couleur {
+    to{
+        background-position: 300%;
+    }
 }
